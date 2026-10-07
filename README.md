@@ -42,6 +42,7 @@ States with higher delay rates also showed higher-than-average transit times, al
 
 Delay rates were relatively high in the first and fourth quarters, ranging from 8% to 10.73%, while Q1 also showed an increase in average delivery time from 2017 to 2018.
 
+
 ## Data Source
 
 Brazilian Ecommerce Public Dataset by Olist, shared on Kaggle
@@ -82,11 +83,19 @@ DAX	-   Measures for order counts, delayed rate, delivery time, and calendar tab
 
 **Home Page**: project title, navigation to the two report pages, and a glossary defining average freight value, average lead time, transit, and dispatch time.
 
+![Dashboard Preview](https://github.com/Biswas014/Olist-Ecommerce-Delivery-Performance-Dashboard/blob/main/Snapshots/Home%20Page.JPG)
+
 **Overview**: Total orders, average transit & dispatch time, average freight value and review score as headline kpi’s, with total orders breaking down by delivery status, delivery scope, number of sellers by shipping status and delay rate by year, quarter, and months. Filterable by date dimensions.
+
+![Dashboard Preview](https://github.com/Biswas014/Olist-Ecommerce-Delivery-Performance-Dashboard/blob/main/Snapshots/Overview.JPG)
 
 **Delay Drivers**: Top 5 cities and product categories with higher number of delayed orders, delay rate by product weight range and against freight value across months. Filterable by date dimensions.
 
+![Dashboard Preview](https://github.com/Biswas014/Olist-Ecommerce-Delivery-Performance-Dashboard/blob/main/Snapshots/Delay%20Drivers.JPG)
+
 **Shipping Time Analysis**: A customer state wise summary table showing total orders, delay rate and the average time taken to deliver an order; delay rate by shipping status; average lead time by year and delivery scope; changes of review score by delivery status. Filterable by date dimensions.
+
+![Dashboard Preview](https://github.com/Biswas014/Olist-Ecommerce-Delivery-Performance-Dashboard/blob/main/Snapshots/Shipping%20Time%20Analysis.JPG)
 
 ## Data Preparation Challenge
 Although I converted the order purchase timestamp in the transactions table and the date column in the calendar table to the same data type, blank values still appeared in the date-related dimensions created from the calendar table.
