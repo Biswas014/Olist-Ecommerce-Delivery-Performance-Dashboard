@@ -103,4 +103,4 @@ Although I converted the order purchase timestamp in the transactions table and 
 I handled the issue at the report level by filtering out the blank category from the relevant slicers.
 
 ## Live Report
-[Click and View](https://app.powerbi.com/reportEmbed?reportId=a9363972-bdee-4fc0-af2f-a42e2be843eb&autoAuth=true&ctid=56c1d497-700b-49cf-8f8d-3dd6b20d522f)
+[Click and View](https://app.powerbi.com/reportEmbed?reportId=99be6b60-1632-43ee-a4d7-f94b65f35260&autoAuth=true&ctid=56c1d497-700b-49cf-8f8d-3dd6b20d522f)
