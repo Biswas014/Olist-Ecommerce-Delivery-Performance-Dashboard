@@ -91,7 +91,8 @@ DAX	-   Measures for order counts, delayed rate, delivery time, and calendar tab
 
 **Delay Drivers**: Top 5 cities and product categories with higher number of delayed orders, delay rate by product weight range and against freight value across months. Filterable by date dimensions.
 
-![Dashboard Preview](https://github.com/Biswas014/Olist-Ecommerce-Delivery-Performance-Dashboard/blob/main/Snapshots/Delay%20Drivers.JPG)
+![Dashboard Preview](
+https://github.com/Biswas014/Olist-Ecommerce-Delivery-Performance-Dashboard/blob/main/Snapshots/Delay%20Drivers.JPG)
 
 **Shipping Time Analysis**: A customer state wise summary table showing total orders, delay rate and the average time taken to deliver an order; delay rate by shipping status; average lead time by year and delivery scope; changes of review score by delivery status. Filterable by date dimensions.
 
@@ -102,4 +103,4 @@ Although I converted the order purchase timestamp in the transactions table and 
 I handled the issue at the report level by filtering out the blank category from the relevant slicers.
 
 ## Live Report
-[Click and View](https://app.powerbi.com/reportEmbed?reportId=5dddd63d-ed20-4f60-bfe9-64a7d0ae666b&autoAuth=true&ctid=56c1d497-700b-49cf-8f8d-3dd6b20d522f)
+[Click and View](https://app.powerbi.com/reportEmbed?reportId=a9363972-bdee-4fc0-af2f-a42e2be843eb&autoAuth=true&ctid=56c1d497-700b-49cf-8f8d-3dd6b20d522f)
