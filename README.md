@@ -24,11 +24,13 @@ Some of the questions answered
 
 1. Seller-side performance
 
-Late dispatch was associated with a 29.7% delivery delay rate, with dispatch time exceeding transit time by 2.36 days.
+Late dispatch raises delay risk: Orders dispatched late by the seller were about four times more likely to be delivered late, 20.5% against 5.3% for on-time dispatches.
+
+High-late-rate sellers are dispatch-driven: Among sellers with higher late-shipping rates, longer dispatch times were the main factor associated with delivery delays. These sellers also typically handled lower order volumes.
 
 2. Geographic concentration
 
-21.7% of the 6,490 delayed orders came from just two cities—Rio de Janeiro and São Paulo.
+21.8% of the 6,509 delayed orders came from just two cities—Rio de Janeiro and Sao Paulo.
 
 3. Product concentration
 
@@ -36,11 +38,18 @@ The Health Beauty and Bed Bath Table categories together accounted for 20.4% of 
 
 4. High-delay but low-volume segments
 
-States with higher delay rates also showed higher-than-average transit times, although their order volumes were considerably lower than those of the highest-volume states. A similar pattern was observed for heavy products, which had lower order volumes but relatively higher delay rates.
+States with higher delay rates showed higher-than-average transit times, although their order volumes were considerably lower than those of the highest-volume states. A similar pattern was observed for heavy products, which had lower order volumes but relatively higher delay rates.
 
 5. Time-based pattern
 
-Delay rates were relatively high in the first and fourth quarters, ranging from 8% to 10.73%, while Q1 also showed an increase in average delivery time from 2017 to 2018.
+Transit time increases in the first and fourth quarters relative to the rest of the year. Delay rate stays elevated above 11% in February, March and November, the same months with the highest transit time.
+
+## Business Implications
+
+•	Delay rate nearly doubles from its average in some months, so plan extra logistics capacity and seller reminders before those periods.
+
+•	Late dispatch has a delay rate almost quadruple against on time dispatches so while investigating the causes of late shipping, also look at carrier performance and delivery estimates, since on-time dispatches are still delayed some of the time.
+
 
 
 ## Data Source
@@ -69,7 +78,7 @@ DAX	-   Measures for order counts, delayed rate, delivery time, and calendar tab
 
 4	Delivery Scope – Orders delivered within the same state are classified as Intrastate, while orders delivered between different states are classified as Interstate.
 
-5	Freight Value – The cost spent by the carrier for delivering an item.
+5	Freight Value – The cost spent by the carrier for delivering an item, excluding orders with zero freight value.
 
 ## Project Workflow
 
@@ -85,16 +94,16 @@ DAX	-   Measures for order counts, delayed rate, delivery time, and calendar tab
 
 ![Dashboard Preview](https://github.com/Biswas014/Olist-Ecommerce-Delivery-Performance-Dashboard/blob/main/Snapshots/Home%20Page.JPG)
 
-**Overview**: Total orders, average transit & dispatch time, average freight value and review score as headline kpi’s, with total orders breaking down by delivery status, delivery scope, number of sellers by shipping status and delay rate by year, quarter, and months. Filterable by date dimensions.
+**Overview**: Total orders, average transit & dispatch time, average freight value and review score as headline kpi’s, with total orders breaking down by delivery status, sellers & deliveries distribution volume by late delivery ratios and delay rate by quarter, and months. Filterable by delivery scope, shipping status, and date dimensions.
 
 ![Dashboard Preview](https://github.com/Biswas014/Olist-Ecommerce-Delivery-Performance-Dashboard/blob/main/Snapshots/Overview.JPG)
 
-**Delay Drivers**: Top 5 cities and product categories with higher number of delayed orders, delay rate by product weight range and against freight value across months. Filterable by date dimensions.
+**Delay Drivers**: Top 5 cities and product categories with higher number of delayed orders, delay rate by product weight range and against freight value across months. Filterable by delivery scope, shipping status, and date dimensions.
 
 ![Dashboard Preview](
 https://github.com/Biswas014/Olist-Ecommerce-Delivery-Performance-Dashboard/blob/main/Snapshots/Delay%20Drivers.JPG)
 
-**Shipping Time Analysis**: A customer state wise summary table showing total orders, delay rate and the average time taken to deliver an order; delay rate by shipping status; average lead time by year and delivery scope; changes of review score by delivery status. Filterable by date dimensions.
+**Shipping Time Analysis**: A customer state wise summary table showing total orders, delay rate and the average time taken to deliver an order; relation between dispatch time and delivery time by shipping status; average lead time by delivery scope; changes of review score by delivery status. Filterable by delivery scope, shipping status, and date dimensions.
 
 ![Dashboard Preview](https://github.com/Biswas014/Olist-Ecommerce-Delivery-Performance-Dashboard/blob/main/Snapshots/Shipping%20Time%20Analysis.JPG)
 
